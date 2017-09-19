@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DB23BA1B1F705AEB00921E00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23BA1A1F705AEB00921E00 /* main.m */; };
 		DB23BA1E1F705AEB00921E00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23BA1D1F705AEB00921E00 /* AppDelegate.m */; };
-		DB23BA211F705AEB00921E00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23BA201F705AEB00921E00 /* ViewController.m */; };
+		DB23BA211F705AEB00921E00 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = DB23BA201F705AEB00921E00 /* Home.m */; };
 		DB23BA241F705AEB00921E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB23BA221F705AEB00921E00 /* Main.storyboard */; };
 		DB23BA271F705AEB00921E00 /* Terea_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB23BA251F705AEB00921E00 /* Terea_2.xcdatamodeld */; };
 		DB23BA291F705AEB00921E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB23BA281F705AEB00921E00 /* Assets.xcassets */; };
@@ -21,8 +21,8 @@
 		DB23BA1A1F705AEB00921E00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB23BA1C1F705AEB00921E00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB23BA1D1F705AEB00921E00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB23BA1F1F705AEB00921E00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB23BA201F705AEB00921E00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB23BA1F1F705AEB00921E00 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		DB23BA201F705AEB00921E00 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		DB23BA231F705AEB00921E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB23BA261F705AEB00921E00 /* Terea_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Terea_2.xcdatamodel; sourceTree = "<group>"; };
 		DB23BA281F705AEB00921E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,11 +60,8 @@
 		DB23BA181F705AEB00921E00 /* Terea 2 */ = {
 			isa = PBXGroup;
 			children = (
-				DB23BA331F705AF200921E00 /* New Group */,
-				DB23BA1C1F705AEB00921E00 /* AppDelegate.h */,
-				DB23BA1D1F705AEB00921E00 /* AppDelegate.m */,
-				DB23BA1F1F705AEB00921E00 /* ViewController.h */,
-				DB23BA201F705AEB00921E00 /* ViewController.m */,
+				DB23BA331F705AF200921E00 /* Main */,
+				DB23BA341F705B2700921E00 /* Controllers */,
 				DB23BA221F705AEB00921E00 /* Main.storyboard */,
 				DB23BA281F705AEB00921E00 /* Assets.xcassets */,
 				DB23BA2A1F705AEB00921E00 /* LaunchScreen.storyboard */,
@@ -83,11 +80,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DB23BA331F705AF200921E00 /* New Group */ = {
+		DB23BA331F705AF200921E00 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DB23BA1C1F705AEB00921E00 /* AppDelegate.h */,
+				DB23BA1D1F705AEB00921E00 /* AppDelegate.m */,
 			);
-			name = "New Group";
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DB23BA341F705B2700921E00 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB23BA1F1F705AEB00921E00 /* Home.h */,
+				DB23BA201F705AEB00921E00 /* Home.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB23BA211F705AEB00921E00 /* ViewController.m in Sources */,
+				DB23BA211F705AEB00921E00 /* Home.m in Sources */,
 				DB23BA1E1F705AEB00921E00 /* AppDelegate.m in Sources */,
 				DB23BA271F705AEB00921E00 /* Terea_2.xcdatamodeld in Sources */,
 				DB23BA1B1F705AEB00921E00 /* main.m in Sources */,
